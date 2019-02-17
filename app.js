@@ -21,6 +21,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'node_modules')));
 
 app.use('/public/Content/Assets/images', express.static('./public/Content/Assets/images'));
+app.use('/public/Content/Assets/docs', express.static('./public/Content/Assets/docs'));
 
 app.use('/', indexRouter);
 

@@ -12,13 +12,13 @@ router.get('/aboutme', function(req, res, next) {
 });
 
 /* GET products page. */
-router.get('/Products', function(req, res, next) {
-  res.render('index', { title: 'Products' });
+router.get('/projects', function(req, res, next) {
+  res.render('projects', { title: 'Projects' });
 });
 
 /* GET services page. */
 router.get('/Services', function(req, res, next) {
-  res.render('index', { title: 'Services' });
+  res.render('services', { title: 'Services' });
 });
 
 /* GET home page. */
@@ -28,6 +28,6 @@ router.get('/', function(req, res, next) {
 
 /* GET Contact page. */
 router.get('/Contact', function(req, res, next) {
-  res.render('index', { title: 'Contact' });
+  res.render('contact', { title: 'Contact' });
 });
 module.exports = router;
