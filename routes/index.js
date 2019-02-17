@@ -1,33 +1,38 @@
-let express = require('express');
+/* Project Name: ExpressPortfolio
+   File Name: app.css
+   Name: Atul Sharma
+   Student id: 300969400
+   Date: February 16, 2019 */
+let express = require("express");
 let router = express.Router();
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Home' });
+router.get("/", function(req, res, next) {
+  res.render("index", { title: "Home" });
 });
 
 /* GET about page. */
-router.get('/aboutme', function(req, res, next) {
-  res.render('about/aboutme', { title: 'About' });
+router.get("/aboutme", function(req, res, next) {
+  res.render("about/aboutme", { title: "About" });
 });
 
 /* GET products page. */
-router.get('/projects', function(req, res, next) {
-  res.render('projects', { title: 'Projects' });
+router.get("/projects", function(req, res, next) {
+  res.render("projects", { title: "Projects" });
 });
 
 /* GET services page. */
-router.get('/Services', function(req, res, next) {
-  res.render('services', { title: 'Services' });
+router.get("/Services", function(req, res, next) {
+  res.render("services", { title: "Services" });
 });
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.get("/", function(req, res, next) {
+  res.render("index", { title: "Express" });
 });
 
 /* GET Contact page. */
-router.get('/Contact', function(req, res, next) {
-  res.render('contact', { title: 'Contact' });
+router.get("/Contact", function(req, res, next) {
+  res.render("contact", { title: "Contact" });
 });
 module.exports = router;

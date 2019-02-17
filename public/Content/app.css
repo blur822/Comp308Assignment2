@@ -1,1 +1,18 @@
 /* custom Css goes here */
+
+/* Project Name: ExpressPortfolio
+   File Name: app.css
+   Name: Atul Sharma
+   Student id: 300969400
+   Date: February 16, 2019 */
+
+/* custom css*/
+
+body {
+  background-image: url("../Content/Assets/images/galaxy-bg.jpg");
+}
+
+h1 {
+  color: rgb(48, 7, 71);
+  text-transform: capitalize;
+}
